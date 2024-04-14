@@ -12,14 +12,14 @@ scrape_configs:
         - '{__name__=~".+"}'
     static_configs:
       # ------------------------------------- #
-      - targets: [ '192.168.0.80:9090']  # DEV-01
+      - targets: [ '154.12.228.130:9090']  # DEV-01
         labels:
           pais: AR
           entorno: DEV
           cliente: cliente
           hostname: dev-cliente01-ar
       # ------------------------------------- #
-      - targets: [ '192.168.0.40:9090']  # DEV-02
+      - targets: [ '192.168.0.101:9090']  # DEV-02
         labels:
           pais: AR
           entorno: DEV
